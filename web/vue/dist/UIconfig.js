@@ -8,13 +8,13 @@ const CONFIG = {
   headless: true,
   api: {
     host: '0.0.0.0',
-    port: 3003,
+    port: 3004,
     timeout: 120000 // 2 minutes
   },
   ui: {
     ssl: false,
     host: '13.58.95.146',
-    port: 3003,
+    port: 3004,
     path: '/'
   },
   adapter: 'sqlite'
