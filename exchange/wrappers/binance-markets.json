@@ -68,12 +68,13 @@
     "EVX",
     "FUEL",
     "GNT",
+    "GO",
     "GRS",
     "GTO",
     "GVT",
     "GXS",
+    "HC",
     "HOT",
-    "HSR",
     "ICX",
     "INS",
     "IOST",
@@ -100,6 +101,7 @@
     "NXS",
     "ONT",
     "OST",
+    "PHX",
     "PIVX",
     "POA",
     "POE",
@@ -114,7 +116,6 @@
     "REP",
     "REQ",
     "RLC",
-    "RPX",
     "SC",
     "SKY",
     "STEEM",
@@ -1872,6 +1873,28 @@
     },
     {
       "pair": [
+        "BNB",
+        "GO"
+      ],
+      "minimalOrder": {
+        "amount": 1,
+        "price": 0.000001,
+        "order": 1
+      }
+    },
+    {
+      "pair": [
+        "BTC",
+        "GO"
+      ],
+      "minimalOrder": {
+        "amount": 1,
+        "price": 1e-8,
+        "order": 0.001
+      }
+    },
+    {
+      "pair": [
         "BTC",
         "GRS"
       ],
@@ -1972,44 +1995,44 @@
     {
       "pair": [
         "BTC",
-        "HOT"
+        "HC"
       ],
       "minimalOrder": {
-        "amount": 1,
-        "price": 1e-8,
+        "amount": 0.01,
+        "price": 1e-7,
         "order": 0.001
       }
     },
     {
       "pair": [
         "ETH",
-        "HOT"
+        "HC"
       ],
       "minimalOrder": {
-        "amount": 1,
-        "price": 1e-8,
+        "amount": 0.01,
+        "price": 0.000001,
         "order": 0.01
       }
     },
     {
       "pair": [
         "BTC",
-        "HSR"
+        "HOT"
       ],
       "minimalOrder": {
-        "amount": 0.01,
-        "price": 0.000001,
+        "amount": 1,
+        "price": 1e-8,
         "order": 0.001
       }
     },
     {
       "pair": [
         "ETH",
-        "HSR"
+        "HOT"
       ],
       "minimalOrder": {
-        "amount": 0.01,
-        "price": 0.000001,
+        "amount": 1,
+        "price": 1e-8,
         "order": 0.01
       }
     },
@@ -2863,6 +2886,39 @@
     {
       "pair": [
         "BNB",
+        "PHX"
+      ],
+      "minimalOrder": {
+        "amount": 1,
+        "price": 0.000001,
+        "order": 1
+      }
+    },
+    {
+      "pair": [
+        "BTC",
+        "PHX"
+      ],
+      "minimalOrder": {
+        "amount": 1,
+        "price": 1e-8,
+        "order": 0.001
+      }
+    },
+    {
+      "pair": [
+        "ETH",
+        "PHX"
+      ],
+      "minimalOrder": {
+        "amount": 1,
+        "price": 1e-8,
+        "order": 0.01
+      }
+    },
+    {
+      "pair": [
+        "BNB",
         "PIVX"
       ],
       "minimalOrder": {
@@ -3286,39 +3342,6 @@
       "minimalOrder": {
         "amount": 0.01,
         "price": 0.000001,
-        "order": 0.01
-      }
-    },
-    {
-      "pair": [
-        "BNB",
-        "RPX"
-      ],
-      "minimalOrder": {
-        "amount": 1,
-        "price": 0.000001,
-        "order": 1
-      }
-    },
-    {
-      "pair": [
-        "BTC",
-        "RPX"
-      ],
-      "minimalOrder": {
-        "amount": 1,
-        "price": 1e-8,
-        "order": 0.001
-      }
-    },
-    {
-      "pair": [
-        "ETH",
-        "RPX"
-      ],
-      "minimalOrder": {
-        "amount": 1,
-        "price": 1e-8,
         "order": 0.01
       }
     },
